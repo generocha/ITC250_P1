@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#title{
+    margin-top:5%;
+    text-align: center;
+    font-size: 2em;
+    font-family:Arial black;
+    color:azure;
+}
+.container{
+    width: 60%;
+    margin:0 auto;
+    height: 50%;
+    background-color: #fff;
+    opacity:0.7;
+    border-radius:1em;
+    overflow: hidden;
+    -moz-box-shadow:1px 1px 12px #333333; -webkit-box-shadow:1px 1px 12px #333333; box-shadow:1px 1px 12px #333333;
+}
+
+#inputbox{
+    padding: 2em;
+}
+#submit{
+    margin-left:2em;
+    width: 25%;
+}
+form{
+    font-size:1em;
+    font-family:Arial;
+}
+.option{
+    display:block;
+    float:left;
+    width:30%;
+    padding:1%;
+    overflow: hidden;
+}
+#optionwindow{
+    display:block;
+    padding:3%;
+    height:50%;
+    background-color: #efefef;
+    border-radius:1em;
+    overflow: hidden;
+}
