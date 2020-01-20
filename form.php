@@ -18,7 +18,7 @@ if(isset($_POST['Temp']))
          <div id="inputbox">';
     
     // verify if the user entered the a vaild number in the input
-    if(empty($temp) || !is_numeric($temp)){
+    if(!is_numeric($temp) || (empty($temp) && $temp != 0)){
                     echo '<h4>You must enter a numeric value!</h4>
                           <p><button class="submit"><a href="' . THIS_PAGE . '">Convert another temp</a></button></p>
                           </div></div>';
