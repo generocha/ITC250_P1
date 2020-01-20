@@ -1,9 +1,3 @@
-<!doctype html>
-<html>
-    <head>
-        <link rel="stylesheet" href="css/style.css"/>
-    </head>
-    <body>
 <?php
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 if(isset($_POST['Temp']))
@@ -87,5 +81,3 @@ echo '<h2>'.convertTemp($temp,$type).'</h2>
         </div>';
      }
 ?>
-</body>
-</html>
